@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat';
     color: #071D49;
     
+    background-image: url("./utils/images/bg-graphic-1.svg"), url("./utils/images/bg-graphic-2.svg"), url("./utils/images/bg-graphic-3.svg");
+    background-repeat: no-repeat;
+    background-position: 1000px 480px, -200px 1370px, -550px 5100px;
+    /* x-axis y-zxis*/
+
 }
 .top-heading{
     font-family: 'Montserrat';
@@ -116,7 +121,7 @@ body{
 }
 .footer-page{
     background-color: #071D49;
-    color: #fff;
+    color: #fff;    
     font-size: 0.6rem;
 }
 .lg-green-foot-pill{
@@ -150,16 +155,25 @@ body{
 }
 
 
+/* background images */
+.background-img-1{
+    position: absolute;
+
+}
 
 
 
 
+
+ 
 
 
 
 
 @media only screen and (max-width:768px ) {
-    
+    body{
+        background:none;
+    }
     .burger-menu-dis{
         display: flex;
     }
@@ -198,10 +212,18 @@ body{
     display: flex;
     }
 }
-    
+  
+
+/* background-position: 1000px 480px, -200px 1370px, -550px 5100px;
+    x-axis y-zxis */
+
 
 @media only screen and (min-width:769px) and (max-width:992px) {
-   .burger-menu-dis{
+    body{
+        background-position:  500px 130px, -280px 800px, -620px 5280px ;
+    }
+  
+    .burger-menu-dis{
         display: flex;
     }
     .getintouch-button{
@@ -314,6 +336,7 @@ body{
     }
     .lg-green-foot-pill{
     display: flex;
+    font-size: 1rem;
     }
 
 }
