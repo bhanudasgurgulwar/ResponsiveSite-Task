@@ -1,11 +1,13 @@
 * {
 
     margin: 0px;
-    padding: 0px;;
+    padding: 0px;
+
 }
 body{
     font-family: 'Montserrat';
     color: #071D49;
+    
 }
 .top-heading{
     font-family: 'Montserrat';
@@ -90,6 +92,7 @@ body{
 }
 .page4-lists>ul{
     list-style: none;
+    padding-left: 0;
 
 }
 .page4-lists li{
@@ -111,9 +114,40 @@ body{
 .page5-btn{
     display: none;
 }
+.footer-page{
+    background-color: #071D49;
+    color: #fff;
+    font-size: 0.6rem;
+}
+.lg-green-foot-pill{
+    color: #071D49;
+}
+.tab-mob-green-foot{
+    display: none;
+}
+.lg-green-foot-pill{
+    display: none;
+}
+.foot-lists {
+    list-style: none;
+    padding-left: 0;
+}
+.foot-lists >li{
+    font-size: 0.6rem;
+    padding: 0.5rem 0 ;
+}
+.foot-imp-text{
+    color: #3BBFB5;
+    font-size: 0.7rem;
+}
+.page4-num-block {
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
 
-
-
+.page4-num-block ::-webkit-scrollbar {
+    display: none;
+}
 
 
 
@@ -160,6 +194,9 @@ body{
     .page4-num-dis-head{
         border-radius: 0 0 8rem 0;
     }
+    .tab-mob-green-foot{
+    display: flex;
+    }
 }
     
 
@@ -201,6 +238,9 @@ body{
     display: flex;
     }
     .page5-btn{
+    display: flex;
+    }
+    .tab-mob-green-foot{
     display: flex;
     }
 
@@ -272,7 +312,9 @@ body{
     .card1{
         width: 33%;
     }
-   
+    .lg-green-foot-pill{
+    display: flex;
+    }
 
 }
 

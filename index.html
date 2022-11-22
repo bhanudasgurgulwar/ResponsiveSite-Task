@@ -243,7 +243,7 @@
                         <h6 class="fw-bolder ">Access</h6>
                     </div>
                     </div>
-                    <div class="d-flex justify-content-between flex-nowrap overflow-scroll p-4 flex-sm-column flex-md-row flex-lg-row flex-column ">
+                    <div style="width: 100%;"   class=" page4-num-block d-flex justify-content-between  p-4 flex-sm-column flex-md-row flex-lg-row flex-column flex-nowrap overflow-auto">
                         <div class="d-flex">
                             <div class="m-5">
                            <h3 class="holow-nums">100%</h3>
@@ -464,43 +464,60 @@
 
     </main>
 
-    
-    <footer>
-        <div class="tab-mob-green-foot">
 
-        </div>
-        <div class="">
-            <div style="border: radius 8rem; ; background-color:linear-gradient(266.53deg, #99CC33 6.57%, #3BBFB5 92.52%);">
-                <div>
-                    <h6>Contact Us</h6>
-                    <p>Ready to Improve Data Quality and Protect Patient Safety?</p>
+    <footer>
+        <div class="tab-mob-green-foot ">
+            <div class="p-5 d-flex flex-column vw-100 " style="background:linear-gradient(266.53deg, #99CC33 6.57%, #3BBFB5 92.52%);">
+            <div class="">
+                    <h6 class="fw-bolder ">Contact Us</h6>
+                  <small>  <p>Ready to remove friction from your life sciences processes?<br>
+                    Get in touch with a content solutions expert today.</p> </small>
                 </div>
 
-                <div>
+                <div class="d-flex align-items-baseline justify-content-around ">
                    <input class="form-control form-control-sm" type="email" placeholder="Email address" aria-label=".form-control-sm example">
-                    <button class="btn all-buttons">Get in touch</button>
+                    <div class="m-2 "><button class="btn btn-sm all-buttons  ">Get in touch</button></div>
                 </div>
             </div>
-          <div>
-              <div class="d-flex flex-lg-column ">
-                <img src="./utils/images/Final logo 2.svg" alt="company-logo">
-
+        </div>
+        <div class=" footer-page p-lg-5 pb-lg-0 mt-0 p-sm-4 p-4">
+            <div class="lg-green-foot-pill ">
+                <div class="d-flex justify-content-around p-5 w-100 " style="border-radius: 8rem; ; background:linear-gradient(266.53deg, #99CC33 6.57%, #3BBFB5 92.52%);">
                 <div>
-                NEW YORK (Global HQ) 
-                ny@angular.com
-                +1 212.689.5555
+                    <h6 class="fw-bolder">Contact Us</h6>
+                  <small>  <p>Ready to Improve Data Quality and Protect Patient Safety?</p> </small>
+                </div>
+
+                <div class="d-flex m-3 align-items-baseline ">
+                   <input class="form-control form-control-sm" type="email" placeholder="Email address" aria-label=".form-control-sm example">
+                    <button class="btn all-buttons btn-sm ">Get in touch</button>
+                </div>
+            </div>
+            </div>
+          <div class="d-flex justify-content-between flex-column flex-sm-column flex-lg-row pt-5 ">
+              <div class="d-flex flex-column  ">
+                <div>
+                    <img class="pb-lg-5" src="./utils/images/Final logo 2.svg" alt="company-logo">
                 </div>
 
                 <div>
-                    LONDON (Europe HQ)
-                    london@angular.com
-                    +44 20.7061.2000
+                <p class="fw-bold foot-imp-text pb-0">NEW YORK (Global HQ)</p> 
+                <p class="fw-bold">
+                    ny@angular.com<br>
+                    +1 212.689.5555
+                </p>
                 </div>
 
                 <div>
-                    HONG KONG (Asia HQ)
-                    hk@angular.com
-                    +44 20.7061.2000
+                   <p class="fw-bold foot-imp-text">LONDON (Europe HQ)</p> 
+                   <p class="fw-bold"> london@angular.com<br>
+                    +44 20.7061.2000</p>
+                </div>
+
+                <div>
+                    <p class="fw-bold foot-imp-text"> HONG KONG (Asia HQ)</p> 
+                   <p class="fw-bold"> hk@angular.com <br>
+                    +44 20.7061.2000</p>
                 </div>
 
                 <div>
@@ -508,18 +525,22 @@
                 </div>
             </div>
 
-            <div>
-                <h6>Featured Solutions</h6>
-                <ul>
+           <div class="d-flex  d-sm-flex pt-4">
+            <!-- to display both div side by side -->
+             <div class="d-sm-flex flex-sm-column  flex-lg-row">
+                <!-- to display the small screen footer created this div 1 -->
+                <div class="pe-lg-5">
+                <p class="fw-bold foot-imp-text">Featured Solutions</p>
+                <ul class="foot-lists">
                    <li> Research & Development</li>
                     <li>Commercial</li>
                     <li>Corporate</li>
                 </ul>
             </div>
 
-            <div>
-                <h6>Expertise</h6>
-                <ul>
+            <div class="pe-lg-5">
+                <p class="fw-bold foot-imp-text">Expertise</p>
+                <ul class="foot-lists">
                     <li>ClinOps</li>
                     <li>Quality Assurance</li>
                     <li>Regulatory</li>
@@ -532,10 +553,13 @@
                     <li>Pharmacovilgilance & Medical Information</li>
                 </ul>
             </div>
+            </div>
 
-            <div>
-                <h6>Resources</h6>
-                <ul>
+           <div class="d-sm-flex flex-sm-column flex-lg-row  ">
+            <!-- to display the small screen footer created this div 2 -->
+             <div class="pe-lg-5">
+                <p class="fw-bold foot-imp-text">Resources</p>
+                <ul class="foot-lists">
                     <li>Insights</li>
                     <li>Events</li>
                     <li>Support </li>
@@ -543,17 +567,19 @@
                 </ul>
             </div>
 
-            <div>
-                <h6>About</h6>
-                <ul>
+            <div class="pe-lg-5">
+                <p class="fw-bold foot-imp-text" >About</p>
+                <ul class="foot-lists">
                     <li>Company</li>
                     <li>Customers</li>
                     <li>Leadership</li>
                     <li>Careers</li>
                 </ul>
             </div>
+           </div>
 
-                <div class="social-media-img">
+           </div>
+                <div class="social-media-img d-flex flex-lg-column flex-row flex-sm-row" style="gap:1.6rem ; color:#3BBFB5">
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
@@ -574,11 +600,12 @@
                 </div>
 
           </div>
-            <div>
-                <code>©2022 Anglar Minds Pvt Ltd</code>
-                <code>Privacy | Cookies | Do Not Sell My Info | Accessibility</code>
+           <div class="d-flex flex-sm-column flex-column flex-md-column flex-lg-row justify-content-between pt-4 pb-4 mt-3 " style="border-top:2px solid  #3BBFB5  ;">
+                <code class="text-white">©2022 Anglar Minds Pvt Ltd</code>
+                <code class="text-white">Privacy | Cookies | Do Not Sell My Info | Accessibility</code>
             </div>
         </div>
+         
     </footer>
    
 
