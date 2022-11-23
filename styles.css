@@ -95,15 +95,8 @@ body{
    -webkit-text-stroke-width: 2px;
     -webkit-text-size-adjust: 10px;   
 }
-.page4-lists>ul{
-    list-style: none;
-    padding-left: 0;
 
-}
-.page4-lists li{
-    padding-bottom: 0.25rem;
-    padding-right: 6rem;
-}
+
 .page4-1st-block{
     border-bottom: 2px solid #3BBFB5;
 }
@@ -116,6 +109,7 @@ body{
 .page4-large-img{
     display: none;
 }
+
 .page5-btn{
     display: none;
 }
@@ -160,9 +154,26 @@ body{
     position: absolute;
 
 }
-
-
-
+.card-label-dis{
+   
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+.footer-logo-md-dis{
+    display: none;
+}
+.footer-logo-dis{
+    display: none;
+}
+.social-media-img{
+    display: none;
+}
+.social-media-img-md{
+    display: none;
+}
+.list-seemore-btn{
+    display: none;
+}
 
 
  
@@ -208,10 +219,37 @@ body{
     .page4-num-dis-head{
         border-radius: 0 0 8rem 0;
     }
+    .page4-list-block{
+        height: 200px;
+    }
     .tab-mob-green-foot{
     display: flex;
     }
+    .footer-logo-dis{
+        display: flex;
+    }
+    .social-media-img{
+    display: flex;
+    }
+    .list-seemore-btn{
+    display: flex;
+    }
+
+    .over_1 {
+        position: absolute;
+        height: 22vh;
+        width: 80%;
+        background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 44.27%, rgba(255, 255, 255, 0) 72.92%);
+        z-index: 1;    
+    }
+    
+  
 }
+
+/* .over_1 {
+visibility: hidden;
+    
+} */
   
 
 /* background-position: 1000px 480px, -200px 1370px, -550px 5100px;
@@ -259,13 +297,21 @@ body{
     .page4-large-img{
     display: flex;
     }
+    .page4-list-block{
+        height: 325px;
+    }
     .page5-btn{
     display: flex;
     }
     .tab-mob-green-foot{
     display: flex;
     }
-
+    .footer-logo-md-dis{
+        display: flex   ;
+    }
+    .social-media-img-md{
+        display: flex;
+    }
 
 }
 .page2-text-mata p,li{
@@ -328,6 +374,9 @@ body{
     display: flex;
     object-fit: cover;
     }
+    .page4-list-block{
+        height: 235px;
+    }
     .page5-btn{
     display: flex;
     }
@@ -337,6 +386,12 @@ body{
     .lg-green-foot-pill{
     display: flex;
     font-size: 1rem;
+    }
+    .footer-logo-dis{
+        display: flex;
+    }
+    .social-media-img{
+    display: flex;
     }
 
 }
